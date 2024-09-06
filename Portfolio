@@ -1,0 +1,372 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lambda Session</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div id="preloader">
+      <div id="container" class="container-preloader">
+        <div class="animation-preloader">
+          <div class="spinner"></div>
+          <div class="txt-loading">
+            <span preloader-text="J" class="characters">J</span>
+            <span preloader-text="C" class="characters">C</span>
+            <span preloader-text="U" class="characters">U</span>
+            <span preloader-text="B" class="characters">B</span>
+            <span preloader-text="E" class="characters">E</span>
+          </div>
+        </div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+      </div>
+    </div>
+    <nav class="navbar-custom" id="navbarCustom">
+      <div class="navbar-container">
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <div class="nav-links">
+            <a class="nav-item" href="#">Home</a>
+            <a class="nav-item" href="#about-me">About Me</a>
+            <a class="nav-item" href="#education">Education</a>
+            <a class="nav-item" href="#experiences">Experiences</a>
+            <a class="nav-item" href="#experiences">Projects</a>
+            <a class="nav-item" href="#lang">Languages</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="scroll" class="invisible"></div>
+
+    <div class="box1">
+      <div class="headerr1">
+        <div class="profile-pic-div">
+          <img src="profile-1.png" alt="profile-pic" class="profile-pic" />
+        </div>
+        <div class="namee">
+          <h1>Jash J. Jhatakia</h1>
+          <h4>CSE Student, IITH</h4>
+        </div>
+        <div class="social-links">
+          <ul>
+            <li>
+              <a
+                href="https://instagram.com/jcube_8990?igshid=OTk0YzhjMDVlZA=="
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/kartik-j-262125139/"
+                target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="personal-details">
+          <h4>
+            <a
+              href="tel:+91946023104"
+              style="text-decoration: none"
+              class="mailme"
+              >+91 9426023104</a
+            >
+          </h4>
+          <h4>
+            <a
+              href="mailto:jainkartik789@gmail.com"
+              style="text-decoration: none"
+              class="mailme"
+              >jainkartik789@gmail.com</a
+            >
+          </h4>
+          <h4>
+            <a
+              href="mailto:me24mtech11029@iith.ac.in"
+              style="text-decoration: none"
+              class="mailme"
+              >me24mtech11029@iith.ac.in</a
+            >
+          </h4>
+        </div>
+      </div>
+      <div class="content">
+        <div class="det1">
+          <div class="det-lng item">
+            <h1>
+              Session for Web Development by <span class="lambda">Lambda</span>
+              <br />
+            </h1>
+            <p class="description">
+              I have made this Website for the Session of the Web Development of
+              <span class="lambda1">Lambda</span>, IITH. This simple website
+              just resembles a personal portfolio website giving information about
+              myself.
+            </p>
+            <button type="button" class="custom-button">
+              <a href="mailto:me24mtech11029@iith.ac.in">Mail Me</a>
+            </button>
+
+            <button type="button" class="custom-button">
+              <a href="tel:+917224053168">Call Me</a>
+            </button>
+          </div>
+          <div class="img2 item">
+            <img
+              src="lambda-logo.png"
+              alt="lambda-logo"
+              style="height: 50vh; width: 20vw; opacity: 95%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box2">
+      <section data-id="about-me">
+        <div class="abt-me" id="about-me">
+          <div class="headerr1  logo">
+            <h1>About Me</h1>
+          </div>
+          <div class="details-flex  logo">
+            <h1>Heyy, It's Me <span class="per-det1">Jcube</span>...</h1>
+            <h4>Some of my Details</h4>
+            <div class="my-det">
+              <div><span class="per-det">Name:</span> Jash J. Jhatakia</div>
+              <div><span class="per-det">Age:</span> 20</div>
+              <div><span class="per-det">Residence:</span> Gujarat, India</div>
+              <div><span class="per-det">College:</span> IIT Hyderabad</div>
+              <div>
+                <span class="per-det">Degree Persuing:</span> B.Tech CSE
+              </div>
+              <div>
+                <span class="per-det">Mobile No.:</span> +<a
+                  href="tel:+91946023104"
+                  class="mail-per"
+                  >919426023104</a
+                >
+              </div>
+              <div>
+                <span class="per-det">Personal Email:</span>
+                <a href="mailto:jash.jhatakia@gmail.com" class="mail-per"
+                  >jash.jhatakia@gmail.com</a
+                >
+              </div>
+              <div>
+                <span class="per-det">Institute Email:</span>
+                <a href="mailto:cs22btech11028@iith.ac.in" class="mail-per"
+                  >cs22btech11028@iith.ac.in</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-id="education">
+        <div class="education" id="education">
+          <div class="headerr1  logo">
+            <h1>Education</h1>
+          </div>
+          <div class=" logo style1">
+            <ul style="list-style-type: none; padding: 0; margin: 0">
+              <li>Primary Education</li>
+              <p>
+                I got my primary education from an ICSE Board School. <br />
+                I studied in ICSE Board till 10th Grade.
+              </p>
+              <li>Secondary Education</li>
+              <p>
+                I got my Secondary Education while preparing for JEE. <br />
+                I secured an AIR of
+                585 in JEE Advanced 2022.
+              </p>
+              <li>Current Education</li>
+              <p style="margin: 0">
+                Currently I'm Persuing B.Tech CSE Degree at
+                <span style="color: orange">IIT Hyderabad</span>. <br />I am in
+                the 2022 Batch, anticipated Graduation Date, Fall 2026
+              </p>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section data-id="experiences">
+        <div class="experiences" id="experiences">
+          <div class="headerr1  logo">
+            <h1>Experiences</h1>
+          </div>
+          <div class=" logo style1">
+            <p style="margin: 0">
+              I am currently the Overall Head of Lambda, the Software Development Club of IIT Hyderabad. <br />
+              I have also been the UG Buddy Head at Sunshine, IITH, Web Manager at E-Cell, and the Experience and Hospitality Coordinator and Web Lead at TEDxIITHyderabad. I am a NSO Badminton player, and love playing badminton in my spare time. 
+            </p>
+          </div>
+        </div>
+      </section>
+      <section data-id="lang">
+        <div class="languages-ik" id="lang">
+          <div class="headerr1  logo">
+            <h1>Languages I know....</h1>
+            <h4>(Coding Languages, obv..)</h4>
+          </div>
+          <div class="langs  logo">
+            <div class="langs1">
+              <div class="card">
+                <a href="https://html.spec.whatwg.org/multipage/"
+                  ><img
+                    src="html-logo.png"
+                    class="card-img-top"
+                    alt="html-logo"
+                /></a>
+                <div class="card-body">
+                  <p class="card-text">HTML</p>
+                </div>
+              </div>
+              <div class="card">
+                <a href="https://www.w3.org/Style/CSS/"
+                  ><img src="css-logo.png" class="card-img-top" alt="css-logo"
+                /></a>
+                <div class="card-body">
+                  <p class="card-text">CSS</p>
+                </div>
+              </div>
+              <div class="card">
+                <a href="https://getbootstrap.com/"
+                  ><img
+                    src="bootstrap-logo.png"
+                    class="card-img-top"
+                    alt="bootstrap-logo"
+                /></a>
+                <div class="card-body">
+                  <p class="card-text">Bootstrap</p>
+                </div>
+              </div>
+              <div class="card">
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/javascript"
+                  ><img src="js-logo.png" class="card-img-top" alt="js-logo"
+                /></a>
+                <div class="card-body">
+                  <p class="card-text">JavaScript</p>
+                </div>
+              </div>
+              <div class="card">
+                <a href="https://nodejs.org/en"
+                  ><img
+                    src="node-logo.png"
+                    class="card-img-top"
+                    alt="node-logo"
+                /></a>
+                <div class="card-body">
+                  <p class="card-text">Node JS</p>
+                </div>
+              </div>
+              <div class="card">
+                <a href="https://flutter.dev/"
+                  ><img
+                    src="pngwing.com.png"
+                    class="card-img-top"
+                    alt="flutter-logo"
+                /></a>
+                <div class="card-body">
+                  <p class="card-text">Flutter</p>
+                </div>
+              </div>
+              <div class="card">
+                <a href="https://www.python.org/"
+                  ><img
+                    src="python-logo.png"
+                    class="card-img-top"
+                    alt="python-logo"
+                /></a>
+                <div class="card-body">
+                  <p class="card-text">Python</p>
+                </div>
+              </div>
+              <div class="card">
+                <a href="https://www.java.com/en/"
+                  ><img
+                    src="java-logo.png"
+                    class="card-img-top"
+                    alt="java-logo"
+                /></a>
+                <div class="card-body">
+                  <p class="card-text">Java</p>
+                </div>
+              </div>
+              <div class="card">
+                <a
+                  href="https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html"
+                  ><img src="c-logo.png" class="card-img-top" alt="c-logo"
+                /></a>
+                <div class="card-body">
+                  <p class="card-text">C</p>
+                </div>
+              </div>
+              <div class="card">
+                <a href="https://isocpp.org/"
+                  ><img
+                    src="cpp-logo-1.png"
+                    class="card-img-top"
+                    alt="cpp-logo"
+                /></a>
+                <div class="card-body">
+                  <p class="card-text">C++</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/e402329cbc.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="script.js"></script>
+    <script>
+      $(document).ready(function () {
+        setTimeout(function () {
+          $("#container").addClass("loaded");
+
+          if ($("#container").hasClass("loaded")) {
+            $("#invisible").removeClass("invisible");
+            $("#scroll").removeClass("invisible");
+            $("#preloader")
+              .delay(9000)
+              .queue(function () {
+                $(this).remove();
+              });
+          }
+        }, 3000);
+      });
+    </script>
+    <script>
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop(),
+          dh = $(document).height(),
+          wh = $(window).height();
+        scrollPercent = (scroll / (dh - wh)) * 100;
+        $("#scroll").css("width", scrollPercent + "%");
+      });
+    </script>
+  </body>
+</html>
